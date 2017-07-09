@@ -1,0 +1,48 @@
+.white-text {
+  color: white !important;
+}
+body{
+	
+	background-color:#e9ebee;
+}
+
+#row1{
+	margin-top:60px;
+}
+.list-heading{
+	padding-left:12px;
+}
+
+@media (max-width: 500px)
+{
+iframe{
+	width:280px;
+	}		
+a.navbar-brand{
+		margin-left:0px;
+	}
+
+	
+}
+
+	
+	body{
+	
+	position:relative;
+}
+
+#column1{
+	background-color:#e9ebee;
+}
+
+#column3{
+	background-color:#e9ebee;
+}
+
+#column6{
+	background-color:#e9ebee;
+}
+
+#column3{
+	background-color:#e9ebee;
+}
