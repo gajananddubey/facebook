@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Facebook</title>
-
+    <link rel="icon" href="https://cdn0.iconfinder.com/data/icons/social-network-7/50/3-128.png">   <!--Defining icon here -->
     <!-- Bootstrap -->
-   <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-<script src="https://use.fontawesome.com/08677aae42.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">                    <!-- Linking css file of bootstrap -->
+    <link href="css/main.css" rel="stylesheet">                            <!-- Linking main css (old css) to the index.html -->
+    <script src="https://use.fontawesome.com/08677aae42.js"></script>      <!-- Linking script for fontawesome icons -->
   
   </head>
   <body>
 <div class="container-fluid">
   
 <header>
+	<!-- Nav bar inside a header tag -->
+	<!--Navbar Starts from here -->
   <nav class="navbar navbar-default navbar-fixed-top" style="background-color:#3b5998;">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -28,7 +30,7 @@
       <a class="navbar-brand"style="font-size:30px;padding-top:10px;margin-left:10px;" href="#"><i class="fa fa-facebook" style="color:white;"aria-hidden="true"></i></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-     <form class="navbar-form navbar-left">
+     <form class="navbar-form navbar-left">                     <!-- Form tag starts from here -->
       <div class="input-group">
         <input type="text" class="form-control"style="padding-right:160px;" placeholder="Search">
         <div class="input-group-btn">
@@ -39,8 +41,8 @@
       </div>
     </form>
       <ul class="nav navbar-nav navbar-right" style="font-size:14px;margin-right: 90px;">
-        <li><a href="#"class="white-text"style="padding-bottom: 0px;padding-top: 11px;"><img src="images/navbar.jpg"style="height:30px;width:30px;margin-right:10px;">Gajanand</a></li>
-        <li><a href="#"class="white-text">Home</a></li>
+        <li><a href="https://www.facebook.com/"class="white-text"style="padding-bottom: 0px;padding-top: 11px;"><img src="images/navbar.jpg"style="height:30px;width:30px;margin-right:10px;">Gajanand</a></li>
+        <li><a href="https://www.facebook.com/"class="white-text">Home</a></li>
 		<li><a href="#"class="white-text"><i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
 		<li><a href="#"class="white-text"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
 		<li><a href="#"class="white-text"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
@@ -48,16 +50,16 @@
        <li class="dropdown">
           <a href="#" class="dropdown-toggle white-text" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="caret"style="color:white;"></span></a>
           <ul class="dropdown-menu">
-		              <li><a href="#">Gajanand</a></li>
-					              <li role="separator" class="divider"></li>
-            <li><a href="#">Create Page</a></li>
-            <li><a href="#">Manage Page</a></li>
-			            <li role="separator" class="divider"></li>
-            <li><a href="#">Create Group</a></li>
-			 <li><a href="#">Manage Group</a></li>
-			             <li role="separator" class="divider"></li>
+	      <li><a href="https://www.facebook.com/">Gajanand</a></li>
+	      <li role="separator" class="divider"></li>
+              <li><a href="#">Create Page</a></li>
+	     <li><a href="#">Manage Page</a></li>
+	     <li role="separator" class="divider"></li>
+             <li><a href="#">Create Group</a></li>
+	     <li><a href="#">Manage Group</a></li>
+             <li role="separator" class="divider"></li>
             <li><a href="#">Create Adds</a></li>
-			 <li><a href="#">Advertise on Facebook</a></li>
+            <li><a href="#">Advertise on Facebook</a></li>
             <li><a href="#">Settings</a></li>
             <li><a href="#">Actitvity Log</a></li>
             <li><a href="#">Log Out</a></li>
@@ -79,24 +81,23 @@
 <div class="container-fluid">
 <div class="row"id="row1">
 
-
+<!-- to take some space from left side -->
 <div class="col-md-1"id="column1">
-
 </div>
-
+<!-- Defining left hand Menu items here like profile,news feed,groups, pages , freinds etc. -->
 <div class="col-md-2 hidden-xs hidden-sm " id="column2">
 
         	   <ul class="nav nav-pills nav-stacked" style="position:fixed;">
-		          <li role="presentation"><a href="#"><img src="images/navbar.jpg"style="height:20px;width:20px;margin-right:10px;">Gajanand</a></li>
-		          <li role="presentation"><a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"style="margin-right:15px;color:black;"></i>News Feed</a></li>
-		          <li role="presentation"><a href="#"><i class="fa fa-envelope" aria-hidden="true"style="margin-right:17px;color:black;"></i>Messenger</a></li>
+		          <li role="presentation"><a href="https://www.facebook.com/"><img src="images/navbar.jpg"style="height:20px;width:20px;margin-right:10px;">Gajanand</a></li>
+		          <li role="presentation"><a href="https://www.facebook.com/"><i class="fa fa-newspaper-o" aria-hidden="true"style="margin-right:15px;color:black;"></i>News Feed</a></li>
+		          <li role="presentation"><a href="https://www.facebook.com/"><i class="fa fa-envelope" aria-hidden="true"style="margin-right:17px;color:black;"></i>Messenger</a></li>
 		        </ul>
 
 			          <ul class="nav nav-pills nav-stacked"style="position:fixed;top:24%;">
-					   <h4 class="list-heading"> Shortcuts </h4>
-					  <li role="presentation"><a href="#">AcadView</a></li>
-					  <li role="presentation"><a href="#">HTML, CSS Group</a></li>
-					  <li role="presentation"><a href="#">Bootstrap Fundas</a></li>
+					  <h4 class="list-heading"> Shortcuts </h4>
+					  <li role="presentation"><a href="https://acadview.com">AcadView</a></li>
+					  <li role="presentation"><a href="https://www.w3schools.com/">HTML, CSS Group</a></li>
+					  <li role="presentation"><a href="http://getbootstrap.com/">Bootstrap Fundas</a></li>
 					</ul>
 
 	           <ul class="nav nav-pills nav-stacked"style="position:fixed;top:45%;">
@@ -110,16 +111,16 @@
 			           <li role="presentation"><a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"style="margin-right:15px;color:black;"></i>Page Feeds<span class="badge">20+</span></a></li>
 			           </ul>
 			           <ul class="nav nav-pills"style="position:fixed;top:89%;">
-					   <h4 class="list-heading"> Create </h4>
-			          <li role="presentation"><a href="#">Add</a></li>
-			          <li role="presentation"><a href="#">Groups</a></li>
+					  <h4 class="list-heading"> Create </h4>
+					  <li role="presentation"><a href="#">Add</a></li>
+					  <li role="presentation"><a href="#">Groups</a></li>
 					  <li role="presentation"><a href="#">Page</a></li>
 		
-        </ul>
+        		           </ul>
 
 
 </div>
-
+<!-- Defining main body contents for main posts and news feed and media related stuff below etc.  -->
 <div class="col-md-6 col-lg-6 col-sm-6" id="column6">
 
 	    <div class="panel panel-default">
@@ -130,7 +131,7 @@
 							 
 							  <div class="panel-body">
     <div>
-	<iframe width="710" height="315" src="https://www.youtube.com/embed/Kd57YHWqrsI" frameborder="0" allowfullscreen></iframe>
+	<iframe width="710" height="315" src="https://www.youtube.com/embed/Kd57YHWqrsI" frameborder="0" allowfullscreen></iframe>    <!-- Linking iframe to fit youtube video in page as a post -->
 	</div>
 			                   <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
 			                    <span style="margin-left:30px;"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
@@ -345,8 +346,9 @@
 				   </div>
         </div>
 
+	<!-- Defining tab contents here ... -->
 <div class="col-md-3 hidden-xs hidden-sm "id="column3">
-
+   <!-- replacing tabs with glymphicons and font icons   -->
   <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#home" style="font-size:20px;"><i class="fa fa-line-chart" aria-hidden="true"></i></a></li>
     <li><a data-toggle="tab" href="#menu1"style="font-size:20px;"><i class="fa fa-futbol-o" aria-hidden="true"></i></a></li>
@@ -354,7 +356,7 @@
     <li><a data-toggle="tab" href="#menu3" style="font-size:20px;"><i class="fa fa-film" aria-hidden="true"></i></a></li>
   </ul>
 
-  <div class="tab-content">
+  <div class="tab-content">             <!-- Defining tab related content here ..  -->
     <div id="home" class="tab-pane fade in active">
       <h3>Viral: For Jab Harry Met Sejal's Radha, 6 Million Views In Less Than A Day</h3>
       <p>Viral: For Jab Harry Met Sejal's Radha, 6 Million Views In Less Than A Day</p>
@@ -390,11 +392,11 @@ to wait much for life-saving surgeries in government hospitals as they can get t
 </div>
 
 </div>`
-
+           <!-- Footer starts from here ..... -->
     <footer>
 	      <ul class="nav nav-pills pull-right">
 	      <li role="presentation "><a href="# ">About Us</a></li>
-	      <li role="presentation "><a href="# ">Home</a></li>
+	      <li role="presentation "><a href="https://www.facebook.com/">Home</a></li>
 	      <li role=" presentation "><a href="# ">Privacy</a></li>
 	      <li role="presentation "><a href="# ">Advertising</a></li>
 	      <li role="presentation "><a href="# ">Cookies</a></li>
@@ -412,3 +414,4 @@ to wait much for life-saving surgeries in government hospitals as they can get t
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
+	  <!-- End of the code -->
